@@ -66,8 +66,18 @@ export default function Navigation() {
         )}
       >
         <div className="container mx-auto px-4 flex items-center justify-between h-16 font-mono">
-          <a href="#home" className="text-xl font-bold text-white">
-            TP
+          <a href="#home" className="flex items-center gap-2 group">
+            <div className="relative">
+              {/* Hexagonal background with gradient */}
+              <div className="w-10 h-10 bg-gradient-to-br from-orange-500 via-amber-500 to-yellow-500 rounded-lg rotate-12 group-hover:rotate-0 transition-transform duration-300 shadow-lg shadow-orange-500/30">
+                <div className="absolute inset-0.5 bg-gradient-to-br from-orange-600 to-amber-600 rounded-lg flex items-center justify-center">
+                  <span className="text-white font-bold text-sm">TP</span>
+                </div>
+              </div>
+              {/* Glow effect */}
+              <div className="absolute inset-0 w-10 h-10 bg-gradient-to-br from-orange-500 to-amber-500 rounded-lg rotate-12 group-hover:rotate-0 transition-transform duration-300 blur-sm opacity-50 -z-10"></div>
+            </div>
+
           </a>
 
           {/* Desktop Navigation */}

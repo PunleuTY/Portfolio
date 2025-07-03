@@ -108,7 +108,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative pt-16 bg-black text-white">
-      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full z-0" style={{ background: "#111" }}></canvas>
+      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" style={{ background: "#111" }}></canvas>
 
       <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row items-center justify-between relative z-10 font-extralight font-mono">
         <div className="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
@@ -127,10 +127,10 @@ export default function Hero() {
             transition={{ delay: 0.3, duration: 0.5 }}
             className="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start"
           >
-            <Button className="bg-slate-800 text-white" asChild size="lg">
+            <Button className="bg-slate-800 text-white rounded-3xl" asChild size="lg">
               <a href="#projects">View Projects</a>
             </Button>
-            <Button variant="outline" size="lg" asChild>
+            <Button className="rounded-3xl bg-black text-white" variant="outline" size="lg" asChild>
               <a href="#contact">Get in Touch</a>
             </Button>
           </motion.div>

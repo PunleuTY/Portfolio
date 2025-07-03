@@ -93,7 +93,7 @@ export default function Contact() {
                   name="name"
                   placeholder="Enter your name"
                   required
-                  className="w-full h-14 bg-transparent border-2 border-cyan-400/60 rounded-lg px-4 text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-0 focus:outline-none transition-colors duration-300 text-lg"
+                  className="w-full h-14 bg-gray-900/30 backdrop-blur-sm border-0 rounded-lg px-4 text-white placeholder-gray-400 focus:bg-gray-800/40 focus:ring-0 focus:outline-none transition-all duration-100 text-lg hover:bg-gray-800/30"
                 />
               </motion.div>
 
@@ -109,7 +109,7 @@ export default function Contact() {
                   type="email"
                   placeholder="Enter your email"
                   required
-                  className="w-full h-14 bg-transparent border-2 border-cyan-400/60 rounded-lg px-4 text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-0 focus:outline-none transition-colors duration-300 text-lg"
+                  className="w-full h-14 bg-gray-900/30 backdrop-blur-sm border-0 rounded-lg px-4 text-white placeholder-gray-400 focus:bg-gray-800/40 focus:ring-0 focus:outline-none transition-all duration-100 text-lg hover:bg-gray-800/30"
                 />
               </motion.div>
 
@@ -125,7 +125,7 @@ export default function Contact() {
                   placeholder="Enter your message"
                   rows={8}
                   required
-                  className="w-full bg-transparent border-2 border-cyan-400/60 rounded-lg p-4 text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-0 focus:outline-none transition-colors duration-300 text-lg resize-none"
+                  className="w-full bg-gray-900/30 backdrop-blur-sm border-0 rounded-lg p-4 text-white placeholder-gray-400 focus:bg-gray-800/40 focus:ring-0 focus:outline-none transition-all duration-100 text-lg resize-none hover:bg-gray-800/30"
                 />
               </motion.div>
             </div>
@@ -140,7 +140,7 @@ export default function Contact() {
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="hover:bg-blue-700 text-white px-12 py-3 rounded-lg text-lg font-medium transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl bg-slate-700"
+                className="hover:bg-blue-700 text-white px-12 py-3 text-lg font-medium transition-all duration-150 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl bg-slate-700 rounded-3xl"
               >
                 {isSubmitting ? (
                   <span className="flex items-center gap-2">
