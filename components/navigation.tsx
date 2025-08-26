@@ -22,6 +22,7 @@ export default function Navigation() {
     { name: "Home", href: "#home" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
+    { name: "Blog", href: "#blog" },
     { name: "Contact", href: "#contact" },
   ]
 
@@ -77,7 +78,6 @@ export default function Navigation() {
               {/* Glow effect */}
               <div className="absolute inset-0 w-10 h-10 bg-gradient-to-br from-orange-500 to-amber-500 rounded-lg rotate-12 group-hover:rotate-0 transition-transform duration-300 blur-sm opacity-50 -z-10"></div>
             </div>
-
           </a>
 
           {/* Desktop Navigation */}

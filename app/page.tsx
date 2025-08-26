@@ -2,6 +2,7 @@ import Hero from "@/components/hero"
 import Navigation from "@/components/navigation"
 import Projects from "@/components/projects"
 import Skills from "@/components/skills"
+import Blog from "@/components/blog"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 
@@ -11,6 +12,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <Skills />
+      
       <Projects />
       <Contact />
       <Footer />
