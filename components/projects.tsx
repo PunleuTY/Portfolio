@@ -84,7 +84,7 @@ const projects = [
     image: "/images/hospital-management-thumbnail.png",
     tags: ["Javascript", "React.js", "Express.js", "PostgreSQL", "CSS", "HTML", "Tailwind CSS"],
     category: "Web-Based Application",
-    status: "In Progress",
+    status: "Completed",
     year: "2025",
     featured: false,
     hasDemo: false,
