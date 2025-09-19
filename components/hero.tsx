@@ -116,7 +116,7 @@ export default function Hero() {
             <h1 className="text-5xl font-bold tracking-tight mb-4 text-white md:text-7xl font-serif">TY Punleu</h1>
             <div className="inline-block text-white px-4 py-1 rounded mb-6 bg-slate-800">Data Science Student</div>
             <p className="text-lg md:text-xl text-gray-300 max-w-2xl">
-              A passionate data science student exploring technologies and learning to solve real-world problems.
+              A third year student in Computer Science field who also passionate exploring technologies and learning to solve real-world problems in Cambodia.
             </p>
           </motion.div>
 
