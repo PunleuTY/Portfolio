@@ -19,9 +19,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} forcedTheme="dark">
+    <html lang="en" className="scroll-smooth dark">
+      <body className={`${inter.className} dark`}>
+        <ThemeProvider>
           {children}
           <Toaster />
         </ThemeProvider>

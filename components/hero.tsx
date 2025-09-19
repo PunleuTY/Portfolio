@@ -141,19 +141,18 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="md:w-1/2 flex justify-center"
         >
-          <div className="relative w-64 h-80 overflow-hidden rounded-md border-2 border-blue-600/20 shadow-xl bg-gray-900 md:w-[300px] md:h-96">
+        <div className="relative w-64 h-80 overflow-hidden rounded-xl shadow-2xl bg-gray-900 p-1 md:w-72 md:h-96">
+          <div className="w-full h-full rounded-xl bg-gradient-to-tr from-blue-500 via-purple-500 to-pink-500 p-1">
             <Image
               src="/images/punleu-ty.jpeg"
               alt="Punleu TY Profile"
               fill
-              style={{
-                objectFit: "cover",
-                objectPosition: "center top",
-              }}
+              style={{ objectFit: "cover", objectPosition: "center top" }}
               priority
-              className="p-0"
+              className="rounded-xl"
             />
           </div>
+        </div>
         </motion.div>
       </div>
 
