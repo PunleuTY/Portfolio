@@ -18,6 +18,21 @@ import { useState } from "react"
 
 const projects = [
   {
+    title: "Khmer Data Annotation Tool",
+    description:
+      "The Khmer Data Annotation Tool is a user-friendly web application designed to simplify the process of annotating and labeling Khmer text data in Image. In our web application, they can update their image dataset (PNG, JPG), drawing boxes on the region of text, then run OCR to get the result as extracted text. Optionally, export as JSON, YOLO format",
+    image: "/images/khmer-data-annotation-thumbnail.png",
+    tags: ["Python", "React JS", "GO", "Tesseract", "MongoDB"],
+    category: "Data Annotation",
+    status: "Completed",
+    year: "2025",
+    featured: true,
+    hasDemo: false,
+    projectType: "Group",
+    demoLink: null,
+    codeLink: "https://github.com/PunleuTY/Khmer-Data-Annotation-Tool",
+  },
+  {
     title: "Customer Churn Analysis",
     description:
       "A comprehensive data-driven project focused on identifying patterns and predicting customer churn using advanced machine learning algorithms and historical data analysis.",
@@ -114,7 +129,7 @@ const getProjectTypeConfig = (type: string) => {
         shadowColor: "shadow-blue-500/30",
         label: "Group Project",
       }
-    case "Group Project":
+    case "Group":
       return {
         icon: GraduationCapIcon,
         color: "from-purple-500 to-pink-500",
